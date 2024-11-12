@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Klinik - Clinic Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>Indonesia</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>sen - jum : 09.00 AM - 09.00 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+62 82 134 532 098</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h1 class="m-0 text-primary"><i class="far fa-hospital me-3"></i>Klinik Healthcare</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Rumah</a>
+                <a href="about.html" class="nav-item nav-link">Tentang</a>
+                <a href="service.html" class="nav-item nav-link active">Layanan</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Halaman</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="feature.html" class="dropdown-item">Fitur</a>
+                        <a href="team.html" class="dropdown-item">Dokter kami</a>
+                        <a href="appointment.html" class="dropdown-item">Janji temu</a>
+                        <a href="testimonial.html" class="dropdown-item">Kesaksian</a>
+                        <a href="404.html" class="dropdown-item">404 halaman</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Kontak</a>
+            </div>
+            <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Janji temu<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Layanan</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Rumah</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Halaman</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">Layanan</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Layanan</p>
+                <h1>Solusi Perawatan Kesehatan</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-heartbeat text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Telinga</h4>
+                        <p class="mb-4">Penyakit telinga dapat menimbulkan berbagai gejala, seperti rasa gatal dan nyeri saat disentuh, kemerahan, serta keluarnya cairan dari telinga. Sakit telinga yang hebat sering disertai demam dan keluarnya cairan berbau. Selain itu, beberapa orang mungkin mengalami vertigo, mual, muntah, dan sensasi berdenging atau mendengung yang dikenal sebagai tinnitus.</p>
+                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Baca Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-x-ray text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Paru-paru</h4>
+                        <p class="mb-4">Penyakit paru-paru yang berkaitan dengan tekanan darah tinggi adalah PH(Hipertensi Pulmonal). Gejala hipertensi pulmonal yang umum di antaranya: Sesak napas, Nyeri dada, Jantung berdebar, Kelelahan dan pusing, Nafsu makan menurun, Warna kebiruan pada kulit dan bibir, Pembengkakan pada, pergelangan tangan dan kaki.</p>
+                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Baca Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-brain text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Penyakit Kulit</h4>
+                        <p class="mb-4">Penyakit kulit dapat menampilkan berbagai gejala, termasuk gatal, kemerahan, pembengkakan, dan lepuhan. Sering terjadi pada dermatitis dan infeksi jamur, sementara kemerahan dan pembengkakan bisa muncul akibat peradangan atau infeksi. Lepuhan yang biasanya berisi cairan dapat terjadi pada kondisi seperti cacar air. Selain itu, bercak putih atau bersisik dapat muncul pada penyakit seperti vitiligo atau psoriasis.</p>
+                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Baca Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-wheelchair text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Mata</h4>
+                        <p class="mb-4">Penyakit mata dapat menjelaskan berbagai gejala yang perlu diwaspadai. Gejala umum antara lain mata merah akibat peradangan, rasa perih atau panas yang sering disebabkan oleh kekeringan, serta gatal-gatal yang biasanya berhubungan dengan alergi. Penglihatan kabur bisa menjadi tanda kondisi serius seperti katarak atau glaukoma, sementara mata kering dapat menyebabkan ketidaknyamanan dan iritasi. Infeksi kornea (keratitis) juga bisa terjadi, sering kali disebabkan oleh kontak lensa yang tidak bersih.</p>
+                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Baca Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-tooth text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Bedah Gigi</h4>
+                        <p class="mb-4">Sakit gigi adalah nyeri yang muncul di dalam atau sekitar gigi dan rahang bawah, dengan gejala bervariasi dari ringan hingga parah. Gejala umum meliputi:
+                            Nyeri tajam atau berdenyut saat mengunyah, Sensitivitas terhadap makanan panas atau dingin, Pembengkakan gusi di sekitar gigi yang sakit, Perdarahan dari gigi atau gusi, Bau mulut tidak sedap (halitosis).
+                            Penyebabnya bisa dari masalah rongga mulut seperti gigi berlubang, infeksi, atau bahkan penyakit sistemik seperti sinusitis atau penyakit jantung.</p>
+                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Baca Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <i class="fa fa-vials text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Alergi</h4>
+                        <p class="mb-4">Alergi adalah respons sistem kekebalan tubuh terhadap zat asing yang dianggap berbahaya, seperti makanan, debu, atau serbuk bunga. Gejala alergi dapat bervariasi, termasuk bersin, hidung tersumbat, gatal-gatal pada kulit, ruam, dan mata berair. Dalam kasus yang lebih serius, reaksi anafilaksis dapat terjadi, yang ditandai dengan kesulitan bernapas dan penurunan tekanan darah. Gejala ini muncul akibat pelepasan histamin dan zat kimia lainnya oleh tubuh sebagai reaksi terhadap alergen.</p>
+                        <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Appointment Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="d-inline-block border rounded-pill py-1 px-4">Janji temu</p>
+                    <h1 class="mb-4">Buatlah Janji Untuk Melakukan Konsultasi dengan Dokter Kami</h1>
+                    <p class="mb-4"></p>
+                    <div class="bg-light rounded d-flex align-items-center p-5 mb-4">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+                            <i class="fa fa-phone-alt text-primary"></i>
+                        </div>
+                        <div class="ms-4">
+                            <p class="mb-2">Hubungi Kami Sekarang</p>
+                            <h5 class="mb-0">+62 82 134 532 098</h5>
+                        </div>
+                    </div>
+                    <div class="bg-light rounded d-flex align-items-center p-5">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+                            <i class="fa fa-envelope-open text-primary"></i>
+                        </div>
+                        <div class="ms-4">
+                            <p class="mb-2">Email Yang Terhubung</p>
+                            <h5 class="mb-0">kliniksehat01@gmail.com</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="bg-light rounded h-100 d-flex align-items-center p-5">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="konsultasi" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Pilih Dokter</option>
+                                        <option value="1">Dokter 1</option>
+                                        <option value="2">Dokter 2</option>
+                                        <option value="3">Dokter 3</option>
+                                        <option value="3">Dokter 4</option>
+                                        <option value="3">Dokter 5</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="date" id="date" data-target-input="nearest">
+                                        <input type="text"
+                                            class="form-control border-0 datetimepicker-input"
+                                            placeholder="Pilih tanggal" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="time" id="time" data-target-input="nearest">
+                                        <input type="text"
+                                            class="form-control border-0 datetimepicker-input"
+                                            placeholder="Pilih tanggal data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" rows="5" placeholder="Deskripsikan masalah anda"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Buat janji temu</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Kesaksian</p>
+                <h1>Apa yang dikatakan pasien kami!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/test1.jpg" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
+                        <p>Pelayanan Di klinik ini Sangat mengapresiasi suasana nyaman dan dokter yang ramah sehingga pelayanannya sangat responsif dan profesional.</p>
+                        <h5 class="mb-1">Afnes</h5>
+                        <span class="fst-italic"></span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/test 2.jpg" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
+                        <p>Saya seorang pasien merasa tenang dan aman Setelah ditangani oleh dokter yang penuh perhatian.</p>
+                        <h5 class="mb-1">Amanda</h5>
+                        <span class="fst-italic"></span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/test 3.jpg" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
+                        <p>Klinik sehat ini penuh pujian atas pelayanan yang baik dan dokter yang teliti dan ramah Pasien merasa puas dan merekomendasikan klinik-klinik ini untuk pelayanan kesehatan.</p>
+                        <h5 class="mb-1">Hajriani</h5>
+                        <span class="fst-italic"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Alamat</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Indonesia</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+62 82 134 532 098</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>kliniksehat01@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Layanan</h5>
+                    <a class="btn btn-link" href="">Telinga</a>
+                    <a class="btn btn-link" href="">Paru-paru</a>
+                    <a class="btn btn-link" href="">Penyakit kulit</a>
+                    <a class="btn btn-link" href="">Mata</a>
+                    <a class="btn btn-link" href="">Bedah gigi</a>
+                    <a class="btn btn-link" href="">Alergi</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Tautan cepat</h5>
+                    <a class="btn btn-link" href="">Tentang kami</a>
+                    <a class="btn btn-link" href="">Hubungi kami</a>
+                    <a class="btn btn-link" href="">Layanan kami</a>
+                    <a class="btn btn-link" href="">Syarat dan ketentuan</a>
+                    <a class="btn btn-link" href="">Mendukung</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Daftar</h5>
+                    <p></p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Mendaftar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#"></a>, 
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <a class="border-bottom" href="https://htmlcodex.com"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
